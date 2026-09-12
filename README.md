@@ -480,7 +480,7 @@ Potential future improvements include:
 
 ## 👨‍💻 Author
 
-**Anish Kumar Singh**
+**G Keerthana**
 
 **Data Engineering | Azure | Databricks | PySpark | SQL | Apache Airflow**
 
