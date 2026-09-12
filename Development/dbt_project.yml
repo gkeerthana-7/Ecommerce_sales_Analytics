@@ -1,0 +1,33 @@
+# Name your project
+name: 'wsdbrksecommerce'
+version: '1.0.0'
+config-version: 2
+
+# Profile used by dbt
+profile: 'default'
+
+# Project directories
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+
+# ============================================================
+# MODEL CONFIGURATION
+# ============================================================
+
+models:
+  wsdbrksecommerce:
+
+    # All models under models/silver/
+    silver:
+      +materialized: table

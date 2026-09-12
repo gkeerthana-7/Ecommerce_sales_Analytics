@@ -1,0 +1,3 @@
+apache-airflow-providers-databricks
+apache-airflow-providers-http
+apache-airflow-providers-dbt-cloud==4.9.3

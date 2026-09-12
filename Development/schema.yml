@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+
+  - name: bronze
+    database: wsdbrksecommerce
+    schema: bronze
+
+    description: "Raw Bronze tables loaded from source Parquet datasets."
+
+    tables:
+
+      - name: customer_dataset
+      - name: order_items_dataset
+      - name: orders_dataset
+      - name: product_category_name_translation
+      - name: products_dataset
+      - name: sellers_dataset
